@@ -21,5 +21,5 @@ docker run --rm -itd --name btc -p 8332:8332 -v `pwd`/data:/opt/coin/data -v `pw
 # Using pre-built docker image
 
 ```bash
-docker run --rm -itd --name btc -p 8332:8332 -v `pwd`/data:/opt/coin/data -v `pwd`/coin.conf:/opt/coin/coin.conf mixhq/bitcoin
+docker run --rm -itd --name btc -p 8332:8332 -v `pwd`/data:/opt/coin/data -v `pwd`/coin.conf:/opt/coin/coin.conf wshub/bitcoin
 ```
